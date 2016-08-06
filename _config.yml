@@ -1,30 +1,34 @@
 fancybox: true ## If you want to use fancybox please set the value to true.
 duoshuo: ## Your duoshuo_shortname, e.g. username
-disqus: ## Your disqus_shortname, e.g. username
+disqus: notelzg  ## Your disqus_shortname, e.g. username
 google_search: true ## Use Google search, true/false.
-baidu_search: ## Use Baidu search, true/false.
+baidu_search: false ## Use Baidu search, true/false.
 swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
 tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
 self_search: ## Use a jQuery-based local search engine, true/false.
 google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
 baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
-show_category_count: false ## If you want to show the count of categories in the sidebar widget please set the value to true.
 shareto: true ## If you want to use the share button please set the value to true.
 busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
-widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
 
 menu:
   - page: home
     directory: .
     icon: fa-home
-  - page: archive
+  - page: 归档
     directory: archives/
     icon: fa-archive
-  - page: about
+  - page: 关于
     directory: about/
     icon: fa-user
-  - page: rss
-    directory: atom.xml
+  - page: 历史
+    directory: history/
+    icon: fa-history
+  - page: 留言 
+    directory: comments
+    icon: fa-comments
+  - page: 书单 
+    directory: books
     icon: fa-rss
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
@@ -32,26 +36,15 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - category
   - tag
   - recent_posts
-  - recent_comments
   - links
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+  - title: csdn
+    url: http://blog.csdn.net/li740207611
 
 timeline:
   - num: 1
-    word: 2014/06/12-Start
-  - num: 2
-    word: 2014/11/29-XXX
-  - num: 3
-    word: 2015/02/18-DDD
-  - num: 4
-    word: More
+    word: 2016/05/10,开始搭建自己的个人博客，之前在csdn写
 
 # Static files
 js: js
